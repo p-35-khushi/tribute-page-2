@@ -1,0 +1,81 @@
+body{
+  background-color: red;
+  font-family: verdana,sans-serif;
+  border: 20px grey;
+  margin: 35px;
+  padding:20px;
+  background-image: linear-gradient(180deg, #F47C7C,#EF9F9F);
+}
+h1{
+  position:relative;
+  top:-55px;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 4px 4px 4px grey;
+  font-family: Sofia,sans-serif;
+}
+.image{
+  position:relative;
+  top:-75px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width:500px;
+    height: auto;
+}
+hr{
+  position:relative;
+  top:-85px;
+  background-color: #EAE509;
+  width:50%;
+}
+ul{
+  position:relative;
+  top:15px;
+  text-align:inherit;
+}
+figcaption{
+  position:relative;
+  top:-90px;
+  text-align: center;
+}
+.tribute-info{
+  text-align: center;
+  position:relative;
+  top:-115px;
+}
+h2{
+  font-family: georgia,serif;
+  position:relative;
+  text-shadow: 4px 4px 4px grey;
+  top:-115px;
+}
+.Fun-Facts{
+  position:relative;
+  top:-115px;
+
+}
+.column{
+  transform: scale(1);
+  position:relative;
+  top:-115px;
+  float:left;
+  width:33.33%;
+  padding:40px;
+}
+.row::after{position:relative;
+top:-23px;
+  transform: scale(1);
+margin-bottom: 100px;
+  content: "";
+  clear:both;
+  display:table;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+.details{
+  margin-left:500px;
+}
